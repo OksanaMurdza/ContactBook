@@ -6,8 +6,8 @@ import java.util.HashSet;
 import java.util.Iterator;
 
 public class Manager {
-    public HashSet<PhoneData> infoStorage = new HashSet<PhoneData>();
-    static Manager inst = null;
+    public HashSet<PhoneData> infoStorage = new HashSet<>();
+    private static Manager inst = null;
 
     public static Manager createManagerInst()
     {

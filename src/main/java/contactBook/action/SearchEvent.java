@@ -7,8 +7,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class SearchEvent implements ActionListener {
-    JTextField textField;
-    JTextArea textArea;
+    private JTextField textField;
+    private JTextArea textArea;
 
     public SearchEvent(JTextField field, JTextArea area){
         textArea = area;

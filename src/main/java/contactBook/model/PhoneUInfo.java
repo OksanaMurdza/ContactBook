@@ -7,10 +7,6 @@ public class PhoneUInfo extends PhoneData {
         super(name,num);
         this.year = year;
     }
-    public void showInfo(){
-        super.showPanel();
-        System.out.println("Year: " + year);
-    }
     public String toString(){
         return super.toString() + "year: " + year+ '\n';
     }

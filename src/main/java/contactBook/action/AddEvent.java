@@ -10,12 +10,12 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class AddEvent implements ActionListener {
-    JTextField name;
-    JTextField phone;
-    JTextField year;
-    JTextArea text;
-    PhoneData data;
-    boolean isAdded;
+    private JTextField name;
+    private JTextField phone;
+    private JTextField year;
+    private JTextArea text;
+    private PhoneData data;
+    private boolean isAdded;
 
     public AddEvent(JTextField nameField, JTextField phoneField, JTextField yearField, JTextArea textArea){
         name = nameField;

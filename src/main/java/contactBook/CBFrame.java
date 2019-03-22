@@ -12,24 +12,24 @@ import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
 
 public class CBFrame extends JFrame {
-    JTextField srchField = new JTextField(15);
-    JButton srchBtn = new JButton("SEARCH");
-    JButton addBtn = new JButton("ADD");
-    JRadioButton rbtn1 = new JRadioButton("General");
-    JRadioButton rbtn2 = new JRadioButton("University");
-    ButtonGroup buttonGroup = new ButtonGroup();
+    private JTextField srchField = new JTextField(15);
+    private JButton srchBtn = new JButton("SEARCH");
+    private JButton addBtn = new JButton("ADD");
+    private JRadioButton rbtn1 = new JRadioButton("General");
+    private JRadioButton rbtn2 = new JRadioButton("University");
+    private ButtonGroup buttonGroup = new ButtonGroup();
 
-    JLabel nameLabel = new JLabel("NAME");
-    JTextField nameField = new JTextField(15);
-    JLabel phoneLabel = new JLabel("PHONE NUMBER");
-    JTextField phoneField = new JTextField(15);
-    JLabel yearLabel = new JLabel("YEAR");
-    JTextField yearField = new JTextField(15);
+    private JLabel nameLabel = new JLabel("NAME");
+    private JTextField nameField = new JTextField(15);
+    private JLabel phoneLabel = new JLabel("PHONE NUMBER");
+    private JTextField phoneField = new JTextField(15);
+    private JLabel yearLabel = new JLabel("YEAR");
+    private JTextField yearField = new JTextField(15);
 
-    JTextField delField = new JTextField(15);
-    JButton delBtn = new JButton("DEL");
+    private JTextField delField = new JTextField(15);
+    private JButton delBtn = new JButton("DEL");
 
-    JTextArea textArea = new JTextArea(10, 25);
+    private JTextArea textArea = new JTextArea(10, 25);
 
     public CBFrame(String title){
         super(title);
@@ -103,7 +103,7 @@ public class CBFrame extends JFrame {
         delPanel.add(delBtn);
 
         JScrollPane scrollPane = new JScrollPane(textArea);
-        Border txtBorder = BorderFactory.createTitledBorder(border,"Iformation Border");
+        Border txtBorder = BorderFactory.createTitledBorder(border,"Information Border");
         ((TitledBorder) srchBorder).setBorder(txtBorder);
 
         JPanel actionPanel = new JPanel();

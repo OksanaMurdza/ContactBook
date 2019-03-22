@@ -8,8 +8,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class DeleteEvent implements ActionListener {
-    public JTextArea textArea;
-    public JTextField textField;
+    private JTextArea textArea;
+    private JTextField textField;
 
     public DeleteEvent(JTextField fild, JTextArea area){
         textArea = area;
