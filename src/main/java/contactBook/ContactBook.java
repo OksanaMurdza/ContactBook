@@ -1,4 +1,4 @@
-package сontactBook;
+package contactBook;
 
 class ContactBook {
 

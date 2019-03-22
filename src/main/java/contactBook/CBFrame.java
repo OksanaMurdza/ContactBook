@@ -1,8 +1,8 @@
-package сontactBook;
+package contactBook;
 
-import сontactBook.action.AddEvent;
-import сontactBook.action.DeleteEvent;
-import сontactBook.action.SearchEvent;
+import contactBook.action.AddEvent;
+import contactBook.action.DeleteEvent;
+import contactBook.action.SearchEvent;
 
 import javax.swing.*;
 import javax.swing.border.Border;

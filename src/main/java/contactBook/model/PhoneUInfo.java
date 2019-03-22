@@ -1,4 +1,4 @@
-package сontactBook.model;
+package contactBook.model;
 
 
 public class PhoneUInfo extends PhoneData {
