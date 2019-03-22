@@ -7,10 +7,10 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class DeleteEvent implements ActionListener {
-    JTextArea textArea;
-    JTextField textField;
+    public JTextArea textArea;
+    public JTextField textField;
 
-    DeleteEvent(JTextField fild, JTextArea area){
+    public DeleteEvent(JTextField fild, JTextArea area){
         textArea = area;
         textField = fild;
     }
